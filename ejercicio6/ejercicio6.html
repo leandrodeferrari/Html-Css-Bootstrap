@@ -1,0 +1,102 @@
+<!--
+
+    6. Por ultimo vamos a crear un formulario para registrar un usuario que se vea de la
+    siguiente manera:
+
+    Registrar un usuario:
+
+    Nombre del usuario
+    rectangulo
+
+    Contraseña del usuario
+    rectangulo
+
+    Edad del usuario
+    rectangulo
+
+    Fecha de nacimiento del usuario
+    rectangulo
+
+    Sexo del usuario
+    .Hombre
+    .Mujer
+    .Prefiero no decir
+
+    País de nacimiento del usuario
+    Argentina->
+
+    Enviar Borrar
+
+    Es importante que en las casillas de sexo del usuario se puede clickear la/s
+    palabra/s hombre, mujer o prefiero no decir para seleccionar la opción.
+    Recordemos que eso lo podemos hacer con la etiqueta label.
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro de usuario básico</title>
+</head>
+
+<h1>Registrar usuario:</h1>
+
+<form action="leandro_deferrari@hotmail.com" method="post" enctype="text/plain">
+
+
+    <label for="nombre">Nombre</label>
+    <br>
+    <input type="text" id="nombre" name="nombre">
+    <br>
+    <label for="contraseña">Contraseña</label>
+    <br>
+    <input type="password" id="contraseña" name="Contraseña">
+    <br>
+    <label for="edad">Edad</label>
+    <br>
+    <input type="number" id="edad" name="edad" value="18">
+    <br>
+    <label for="fecha de nacimiento">Fecha de nacimiento</label>
+    <br>
+    <input type="date" id="fecha de nacimiento" name="fecha de nacimiento">
+    <br>
+
+    <label for="sexo">Sexo</label>
+    <br>
+
+    <div id="sexo">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" name="sexo" value="H">
+        <br>
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" name="sexo" value="M">
+        <br>
+        <label for="otro">Prefiero no especificar</label>
+        <input type="radio" id="otro" name="sexo" value="O">
+        <br>
+    </div>
+
+
+    <label for="país">País</label>
+    <br>
+
+    <select id="país" name="País">
+
+        <option selected>Argentina</option>
+        <option>Brasil</option>
+        <option>Uruguay</option>
+        <option>Paraguay</option>
+        <option>Chile</option>
+
+    </select>
+
+    <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Borrar</button>
+
+</form>
+
+</html>
