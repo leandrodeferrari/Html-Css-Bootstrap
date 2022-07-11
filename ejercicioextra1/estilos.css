@@ -1,0 +1,27 @@
+/*
+
+    1. Para este apartado vamos a crear 2 listas: 
+    a) Lista con viñetas con aspectos personalizados a elección. 
+    b) Lista vertical con links a paginas a elección.
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkorchid;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.list-group-item {
+    background-color: bisque;
+}
