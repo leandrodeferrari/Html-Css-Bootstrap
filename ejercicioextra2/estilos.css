@@ -49,10 +49,30 @@ td {
 }
 
 #valorFila {
-    text-align: right;
+    text-align: center;
     background-color: rgb(130, 130, 231);
 }
 
-img {
-    float: left;
+.euro {
+    background-image: url("imagenes/euro.png");
+    background-repeat: no-repeat;
+    background-position: 25%;
+}
+
+.dolar {
+    background-image: url("imagenes/dolar.png");
+    background-repeat: no-repeat;
+    background-position: 25%;
+}
+
+.libra {
+    background-image: url("imagenes/libra.png");
+    background-repeat: no-repeat;
+    background-position: 25%;
+}
+
+.yen {
+    background-image: url("imagenes/yen.png");
+    background-repeat: no-repeat;
+    background-position: 25%;
 }
