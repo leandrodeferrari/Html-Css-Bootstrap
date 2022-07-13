@@ -1,0 +1,80 @@
+<!--
+
+    3. Siguiendo el ejercicio de Bootstrap, haremos una landing page que contenga un 
+    navbar, investigar el navbar en Bootstrap, con botones a todas las páginas 
+    previamente mencionadas.
+
+    Home(current) Página tabla Página formulario
+
+    Pueden también hacer que ese navbar salga en el resto de las páginas.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <title>Ejercicio extra 3</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Ejercicio de Egg</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/pc/Documents/Html-Css-Bootstrap/ejercicio12/index.html"
+                target="_blank"
+                >Tabla</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="file:///C:/Users/pc/Documents/Html-Css-Bootstrap/ejercicio13/index.html"
+                target="_blank"
+                >Formulario</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
