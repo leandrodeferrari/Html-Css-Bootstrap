@@ -7,13 +7,6 @@
 
 */
 
-.container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
 h1 {
     text-align: center;
 }
@@ -24,6 +17,19 @@ h3 {
 }
 
 img {
+    margin-top: 1%;
+    width: 40%;
+    height: 20%;
+}
+
+article {
+    background-color: blueviolet;
+    display: inline-block;
+    display: flex;
+}
+
+#divholi {
+    display: flex;
     margin-top: 1%;
     width: 40%;
     height: 20%;
