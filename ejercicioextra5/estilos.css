@@ -1,0 +1,30 @@
+/*
+
+    5. Ahora deberemos hacer una página para el detalle del producto. Una pagina que 
+    muestre el nombre, el precio del producto y un botón para comprar y otro para 
+    agregar al carrito. A esta pagina se accederá con el botón en a la tabla de ver 
+    detalle.
+
+*/
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    text-indent: 1%;
+}
+
+img {
+    margin-top: 1%;
+    width: 40%;
+    height: 20%;
+}
