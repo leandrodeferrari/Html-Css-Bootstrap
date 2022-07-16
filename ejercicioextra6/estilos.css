@@ -1,0 +1,17 @@
+/*
+
+    6. Por último, sumarle a la landing cartas que muestren productos de esta manera:
+
+*/
+
+h1{
+    text-align: center;
+}
+
+.card {
+    border-radius: 5%;
+}
+
+button {
+    border-radius: 5%;
+}
